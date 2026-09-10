@@ -243,7 +243,7 @@ if 'calc_results' in st.session_state:
          st.info("**Recommendation:** Standard **Clevis Hanger or Adjustable Pipe Stand** is sufficient for this load class.")
 
     st.markdown("---")
-    st.subheader("📥 Export Professional Engineering Report")
+    st.subheader("📥 Export Engineering Report")
     
     pdf_bytes = create_pdf_report(res)
 
